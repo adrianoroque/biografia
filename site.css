@@ -1,0 +1,53 @@
+@import url(fonts/Shadows_Into_Light/ShadowsIntoLight.ttf);
+@import url(fonts/Lobster/Lobster-Regular.ttf);
+#paragrafo1 {
+      	font-size: 24px;
+            letter-spacing: 3px;
+            line-height: 30px;
+            word-spacing: 10px;
+            text-shadow: 3px 2px red;
+            text-align: center;
+
+            
+
+                  }
+#paragrafo2 {
+
+      letter-spacing: 3px;
+}
+
+      .fundo {
+      	background-color: blue;
+      	color: gold;
+      	text-align: center;
+      }
+
+      .borda-vermelha{
+      	border: 1px solid;
+      	border-color: red;
+                        }      
+      body {
+           font-family: 'Shadows Into Light', cursive;
+      }
+      h5 {
+            font-family: 'Lobster', cursive;
+            color: orange;
+      }
+
+         ol {
+    list-style-type: upper-roman;
+}   
+
+#foto {
+      width: 150px;
+      height: 150px;
+      border-radius: 80px;
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #808080;
+
+
+}
+      
+
