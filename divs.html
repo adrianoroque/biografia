@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+     <title>Trabalhando com DIVs</title>
+     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        #div1 {
+            background-color: aqua;
+            position: sticky;   /* serve para fixar uma div, no caso de barra de rolagem */
+            top: 1;
+            background-color: green;
+            border: 2px solid #4CAF50;
+        }
+        #div2{
+            background-color: yellowgreen;
+            margin: 1 80 5 5px;
+            margin-bottom: 20px;   /*parte de baixo*/
+            padding: 30px;   /*margens do texto para a borda*/
+            height: 2000px;
+            position: relative;
+            z-index: -1;
+            
+        }
+        #div3{
+            background-color: orchid;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 200px;
+
+        }
+        #divinha{
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 0px;
+            top: 10px
+
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">DIV 01</div>
+    <div> <div id="div2">DIV 02
+        <div id="divinha"></div>
+    </div> </div>
+         
+    <div id="div3">DIV 03</div>
+</body>
+</html>
