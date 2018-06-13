@@ -1,0 +1,44 @@
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho, #rodape{
+    width: 700px;
+    height: 100px;
+    background-color: aqua;
+}
+#corpo{
+    width: 700px;
+    height: 800px;
+    background-color: blue
+    }
+#menu-superior {
+    width: 700px;
+    height: 80px;
+    background-color: rgb(255, 0, 34);
+} 
+#menu-lateral{
+    background-color: grey;
+    width: 100px;
+    height: 800px;
+    float: left;
+}
+#conteudo{
+    background-color: rgb(153, 51, 119);
+    width: 400px;
+    height: 800px;
+    float: left;
+}        
+#feeds{
+    background-color: rgba(177, 31, 31, 0.164);
+    width: 200px;
+    height: 800px;
+    float: left;
+}
+#central {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
