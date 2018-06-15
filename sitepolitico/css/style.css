@@ -1,0 +1,43 @@
+* {
+font-family:"Trebuchet MS","Lucida Grande",Verdana,Tahoma,Helvetica,Arial,sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+#header{
+	height: 75px;
+	background: #005EAA;
+}
+
+#logo{
+	margin: 10px 0 0 25px;
+	color: #fff;
+	font: 20px bold;
+}
+
+#menu {
+	background: #005EAA;
+	height: 30px;
+}
+
+#menu li{
+display: block;
+float: left;
+padding: 5px 12px 5px 12px;
+}
+
+.um{
+background: #fff;
+margin: 0 5px 0 5px;
+}
+
+.dois{
+background: #fff;
+margin-right: 5px;
+}
+
+.treis{
+background: #fff;
+margin-right: 5px;
+}
