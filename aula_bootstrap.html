@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=A, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula de Bootstrap</title>
+    <link rel="stylesheet" href="Resources/CSS/bootstrap.css">
+    <link rel="stylesheet" href="Resources/CSS/bootstrap-grid.css">
+    <link rel="stylesheet" href="Resources/CSS/bootstrap-reboot.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Início da Linha -->
+        <div class="row">
+            <!-- Início da coluna cadastro de produto -->
+            <div class="col-6">
+                    <fieldset>
+                            <legend>Cadastro de Produto</legend>
+
+                    </fieldset>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome" id="nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="categoria">Categoria</label>
+                            <select class="form-control" name="categoria" id="categoria">
+                                <option value="1">Eletrônicos</option>
+                                <option value="1">Telefonia</option>
+                                <option value="1">Informática</option>
+                            </select>
+                        </div>
+                    </form>
+                    <button class="btn btn-danger" type="submit">Cadastro</button>
+                    <button class="btn btn-danger" type="reset">Limpar</button>
+            </div>
+        
+        <!-- Final da coluna cadastro de produto -->
+        <!-- Final da lista de produtos -->
+        <div class="col-6">
+            <fieldset>
+                <legend>Lista de Produtos</legend>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tbody>
+                            <tr>
+                                <th>#</th>
+                                <th>nome</th>
+                                <th>categoria</th>
+                            </tr>
+                        </tbody>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Notebook hp</td>
+                            <td>Informática</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>TV 50 Philco</td>
+                            <td>Eletrônicos</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Celular Samsung J5</td>
+                            <td>Telefonia</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Pen drive Sandisk</td>
+                            <td>Informática</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </div>
+        </div>
+        
+
+
+        <!-- Final da Linha -->
+
+    </div>
+    <script src="Resources/js/jquery.js"></script>
+    <script src="Resources/js/popper.js"></script>
+    <script src="Resources/js/bootstrap.bundle.js"></script>
+    <script src="Resources/js/bootstrap.js"></script>
+</body>
+</html>
